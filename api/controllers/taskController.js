@@ -2,7 +2,7 @@ const connection = require('../config/connection');
 
 // Listar todas as tarefas
 const getAllTasks = (req, res) => {
-    connection.query('SELECT * FROM tasks', (err, results) => {
+    connection.query('SELECT * FROM task', (err, results) => {
         if (err) {
             return res.status(500).json({ message: 'Erro ao buscar tarefas', error: err });
         }
@@ -14,7 +14,7 @@ const getAllTasks = (req, res) => {
 const createTask = (req, res) => {
     const { title } = req.body;
     connection.query(
-        'INSERT INTO tasks (title) VALUES (?)',
+        'INSERT INTO task (title) VALUES (?)',
         [title],
         (err, results) => {
             if (err) {
@@ -25,19 +25,18 @@ const createTask = (req, res) => {
     );
 };
 
-// Atualizar o estado de uma tarefa
-const updateTask = (req, res) => {
+// Atualiza uma tarefa
+const updateTaskStatus = (req, res) => {
     const { id } = req.params;
     const { completed } = req.body;
+    
     connection.query(
-        'UPDATE tasks SET completed = ? WHERE id = ?',
-        [completed, id],
+        'UPDATE task SET completed = ? WHERE id = ?',
+        [completed ? 1 : 0, id],
         (err, results) => {
             if (err) {
-                return res.status(500).json({ message: 'Erro ao atualizar tarefa', error: err });
-            }
-            if (results.affectedRows === 0) {
-                return res.status(404).json({ message: 'Tarefa não encontrada' });
+                console.error(err);
+                return res.status(500).json({ message: 'Error updating task', error: err });
             }
             res.status(200).json({ id, completed });
         }
@@ -48,7 +47,7 @@ const updateTask = (req, res) => {
 const deleteTask = (req, res) => {
     const { id } = req.params;
     connection.query(
-        'DELETE FROM tasks WHERE id = ?',
+        'DELETE FROM task WHERE id = ?',
         [id],
         (err, results) => {
             if (err) {
@@ -65,6 +64,6 @@ const deleteTask = (req, res) => {
 module.exports = {
     getAllTasks,
     createTask,
-    updateTask,
-    deleteTask
+    deleteTask,
+    updateTaskStatus  
 };
