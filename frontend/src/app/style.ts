@@ -13,10 +13,11 @@ export const ContainerPage = styled.div`
 `
 
 export const ContainerModal = styled.div`
-    width: 50%;
+    width: 90%;
     height: max-content;
 
     background-color: #FFFFFF;
+    border-radius: 8px;
 `
 
 export const TitleModal = styled.h1`
