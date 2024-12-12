@@ -1,49 +1,5 @@
 <div align="center">
-<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="300" fill="#9333EA"/>
-  
-  <!-- Task list card -->
-  <rect x="700" y="30" width="400" height="240" rx="8" fill="#ffffff" opacity="0.98"/>
-  
-  <!-- Card header -->
-  <text x="740" y="67" font-family="Arial" font-size="20" fill="#374151">Minhas Tarefas</text>
-  
-  <!-- Add task input -->
-  <rect x="720" y="110" width="360" height="40" rx="4" fill="#f3f4f6"/>
-  <text x="740" y="135" font-family="Arial" font-size="14" fill="#6b7280">Adicionar nova tarefa...</text>
-  <rect x="1020" y="115" width="40" height="30" rx="4" fill="#9333EA"/>
-  <text x="1035" y="135" font-family="Arial" font-size="20" fill="white">+</text>
-  
-  <!-- Task items -->
-  <g transform="translate(720, 170)">
-    <rect width="360" height="30" rx="4" fill="#f8f9fa"/>
-    <circle cx="20" cy="15" r="8" fill="#9333EA"/>
-    <text x="40" y="20" font-family="Arial" font-size="14" fill="#374151">Clonar repositório do Github</text>
-  </g>
-  
-  <g transform="translate(720, 210)">
-    <rect width="360" height="30" rx="4" fill="#f8f9fa"/>
-    <circle cx="20" cy="15" r="8" fill="#9333EA"/>
-    <text x="40" y="20" font-family="Arial" font-size="14" fill="#374151">Instalar dependências</text>
-  </g>
-  
-  <!-- Main content -->
-  <text x="100" y="120" font-family="Arial" font-size="52" font-weight="bold" fill="white">Task Manager</text>
-  <text x="100" y="170" font-family="Arial" font-size="28" fill="white" opacity="0.9">Gerenciamento de tarefas simples e eficiente</text>
-  
-  <!-- Feature list -->
-  <g transform="translate(100, 220)">
-    <circle cx="10" cy="0" r="4" fill="white"/>
-    <text x="25" y="5" font-family="Arial" font-size="16" fill="white">Interface intuitiva</text>
-    
-    <circle cx="10" cy="30" r="4" fill="white"/>
-    <text x="25" y="35" font-family="Arial" font-size="16" fill="white">Organização eficiente</text>
-    
-    <circle cx="10" cy="60" r="4" fill="white"/>
-    <text x="25" y="65" font-family="Arial" font-size="16" fill="white">Atualizações em tempo real</text>
-  </g>
-</svg>
+<img src="./banner.svg" alt="Task Manager Banner" />
 
 # Task Manager
 
