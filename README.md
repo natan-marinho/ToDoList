@@ -1,3 +1,4 @@
+<div align="center">
 <svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="1200" height="300" fill="#9333EA"/>
@@ -44,11 +45,9 @@
   </g>
 </svg>
 
-<div align="center">
 # Task Manager
 
 Sistema de gerenciamento de tarefas com interface moderna e intuitiva.
-
 </div>
 
 ## ⚡ Instalação Rápida
@@ -84,11 +83,9 @@ cp .env.example .env
 cd frontend
 cp .env.example .env
 ```
-
 Configure as variáveis de acordo com os exemplos fornecidos.
 
 ## 💻 Executando o Projeto
-
 ```bash
 # API
 cd api
@@ -98,36 +95,30 @@ npm start
 cd frontend
 npm run dev
 ```
-
 Acesse: `http://localhost:3000`
 
 ## 🛠️ Tecnologias
-
 - **Frontend:** React/Next.js
 - **Backend:** Node.js
 - **Banco de Dados:** [Seu Sistema de Banco de Dados]
 
 ## ✨ Funcionalidades
-
 - Sistema de gerenciamento de tarefas
 - Interface moderna e responsiva
 - Atualizações em tempo real
 - Organização intuitiva
 
 ## 📝 Requisitos
-
 - Node.js
 - npm ou yarn
 - Banco de dados local
 
 ## 🔍 Observações Importantes
-
 - Configure todas as variáveis de ambiente antes de iniciar
 - API precisa estar rodando para o frontend funcionar
 - Confira os arquivos .env.example para as configurações necessárias
 
 ## 📫 Suporte
-
 Para suporte, abra uma issue no repositório.
 
 ---
