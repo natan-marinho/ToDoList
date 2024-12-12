@@ -4,18 +4,17 @@
   <!-- Background -->
   <rect width="1200" height="300" fill="#9333EA"/>
   
-  <!-- Interface mockup -->
+  <!-- Task list card -->
   <rect x="700" y="30" width="400" height="240" rx="8" fill="#ffffff" opacity="0.98"/>
   
-  <!-- Header -->
-  <rect x="700" y="30" width="400" height="60" rx="8" fill="#9333EA"/>
-  <text x="740" y="67" font-family="Arial" font-size="20" fill="white">Minhas Tarefas</text>
+  <!-- Card header -->
+  <text x="740" y="67" font-family="Arial" font-size="20" fill="#374151">Minhas Tarefas</text>
   
-  <!-- Input area -->
+  <!-- Add task input -->
   <rect x="720" y="110" width="360" height="40" rx="4" fill="#f3f4f6"/>
   <text x="740" y="135" font-family="Arial" font-size="14" fill="#6b7280">Adicionar nova tarefa...</text>
   <rect x="1020" y="115" width="40" height="30" rx="4" fill="#9333EA"/>
-  <text x="1030" y="135" font-family="Arial" font-size="14" fill="white">+</text>
+  <text x="1035" y="135" font-family="Arial" font-size="20" fill="white">+</text>
   
   <!-- Task items -->
   <g transform="translate(720, 170)">
@@ -30,20 +29,20 @@
     <text x="40" y="20" font-family="Arial" font-size="14" fill="#374151">Instalar dependências</text>
   </g>
   
-  <!-- Main text -->
+  <!-- Main content -->
   <text x="100" y="120" font-family="Arial" font-size="52" font-weight="bold" fill="white">Task Manager</text>
   <text x="100" y="170" font-family="Arial" font-size="28" fill="white" opacity="0.9">Gerenciamento de tarefas simples e eficiente</text>
   
-  <!-- Features list -->
-  <g transform="translate(100, 200)">
-    <circle cx="10" cy="10" r="4" fill="white"/>
-    <text x="25" y="15" font-family="Arial" font-size="16" fill="white">Interface intuitiva</text>
+  <!-- Feature list -->
+  <g transform="translate(100, 220)">
+    <circle cx="10" cy="0" r="4" fill="white"/>
+    <text x="25" y="5" font-family="Arial" font-size="16" fill="white">Interface intuitiva</text>
     
-    <circle cx="10" cy="40" r="4" fill="white"/>
-    <text x="25" y="45" font-family="Arial" font-size="16" fill="white">Organização eficiente</text>
+    <circle cx="10" cy="30" r="4" fill="white"/>
+    <text x="25" y="35" font-family="Arial" font-size="16" fill="white">Organização eficiente</text>
     
-    <circle cx="10" cy="70" r="4" fill="white"/>
-    <text x="25" y="75" font-family="Arial" font-size="16" fill="white">Atualizações em tempo real</text>
+    <circle cx="10" cy="60" r="4" fill="white"/>
+    <text x="25" y="65" font-family="Arial" font-size="16" fill="white">Atualizações em tempo real</text>
   </g>
 </svg>
 
