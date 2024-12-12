@@ -56,7 +56,7 @@ Acesse: `http://localhost:3000`
 ## 🛠️ Tecnologias
 - **Frontend:** React/Next.js
 - **Backend:** Node.js
-- **Banco de Dados:** [Seu Sistema de Banco de Dados]
+- **Banco de Dados:** MySQL
 
 ## ✨ Funcionalidades
 - Sistema de gerenciamento de tarefas
@@ -80,5 +80,6 @@ Para suporte, abra uma issue no repositório.
 ---
 
 <div align="center">
-Desenvolvido com 💜 por [Seu Nome]
+Desenvolvido com 💜 por Natan O. Marinho
+  
 </div>
