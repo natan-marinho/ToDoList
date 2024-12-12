@@ -1,6 +1,6 @@
-<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="-50 -50 1300 400" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="1200" height="300" fill="#9333EA"/>
+  <rect x="-50" y="-50" width="1300" height="400" fill="#9333EA"/>
   
   <!-- Task list card -->
   <rect x="700" y="30" width="400" height="240" rx="8" fill="#ffffff" opacity="0.98"/>
