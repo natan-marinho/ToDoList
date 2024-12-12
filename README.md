@@ -1,5 +1,3 @@
-<div align="center">
-
 <svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="1200" height="300" fill="#9333EA"/>
@@ -46,6 +44,7 @@
   </g>
 </svg>
 
+<div align="center">
 # Task Manager
 
 Sistema de gerenciamento de tarefas com interface moderna e intuitiva.
