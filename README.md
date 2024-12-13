@@ -1,85 +1,65 @@
-<div align="center">
-<img src="./banner.svg" alt="Task Manager Banner" />
 
 # Task Manager
 
-Sistema de gerenciamento de tarefas com interface moderna e intuitiva.
+<div align="center">
+  <img src="./banner.svg" alt="Task Manager Banner" />
 </div>
 
-## ⚡ Instalação Rápida
+Sistema moderno de gerenciamento de tarefas com interface intuitiva.
 
+## 🚀 Instalação
+
+### API
 ```bash
 # Clonar o repositório
-git clone [url-do-seu-repositorio]
+git clone [url-do-repositorio]
 
-# Instalar dependências da API
+# Instalar dependências
 cd api
 npm install
 
-# Instalar dependências do Frontend
-cd ../frontend
-npm install
-```
-
-## 🚀 Configuração
-
-### Banco de Dados
-1. Acesse `api/config/readme.md`
-2. Siga as instruções do script para criar o banco localmente
-
-### Variáveis de Ambiente
-1. **API**
-```bash
-cd api
+# Configurar ambiente
 cp .env.example .env
 ```
 
-2. **Frontend**
+### Frontend
 ```bash
 cd frontend
+npm install
 cp .env.example .env
 ```
-Configure as variáveis de acordo com os exemplos fornecidos.
 
-## 💻 Executando o Projeto
+## ⚙️ Configuração
+
+1. Configure o banco de dados seguindo as instruções em `api/config/readme.md`
+2. Ajuste as variáveis de ambiente nos arquivos `.env` criados
+
+## 💻 Execução
+
+### API
 ```bash
-# API
 cd api
 npm start
+```
 
-# Frontend
+### Frontend
+```bash
 cd frontend
 npm run dev
 ```
+
 Acesse: `http://localhost:3000`
 
 ## 🛠️ Tecnologias
-- **Frontend:** React/Next.js
-- **Backend:** Node.js
-- **Banco de Dados:** MySQL
+- Frontend: React/Next.js
+- Backend: Node.js
+- Banco de Dados: MySQL
 
 ## ✨ Funcionalidades
-- Sistema de gerenciamento de tarefas
-- Interface moderna e responsiva
+- Gerenciamento de tarefas
+- Interface responsiva
 - Atualizações em tempo real
 - Organização intuitiva
 
-## 📝 Requisitos
-- Node.js
-- npm ou yarn
-- Banco de dados local
-
-## 🔍 Observações Importantes
-- Configure todas as variáveis de ambiente antes de iniciar
-- API precisa estar rodando para o frontend funcionar
-- Confira os arquivos .env.example para as configurações necessárias
-
-## 📫 Suporte
-Para suporte, abra uma issue no repositório.
-
----
-
-<div align="center">
-Desenvolvido com 💜 por Natan O. Marinho
-  
-</div>
+## 📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
