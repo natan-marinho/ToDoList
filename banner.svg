@@ -1,63 +1,32 @@
-<svg viewBox="-100 -100 1400 500" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .bg { fill: #9333EA; }
-    .card { fill: #ffffff; opacity: 0.98; }
-    .text-header { font-family: Arial; font-size: 20px; fill: #374151; }
-    .text-light { font-family: Arial; font-size: 14px; fill: #6b7280; }
-    .text-white { font-family: Arial; font-size: 16px; fill: white; }
-    .text-bold { font-family: Arial; font-size: 52px; font-weight: bold; fill: white; }
-    .button { fill: #9333EA; }
-    .list-item { fill: #f8f9fa; }
-    .list-icon { fill: #9333EA; }
-  </style>
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="taskGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6D28D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
 
-  <!-- Background -->
-  <rect x="-100" y="-100" width="1400" height="500" class="bg"/>
-
-  <!-- Main Title -->
-  <text x="100" y="120" class="text-bold">Task Manager</text>
-  <text x="100" y="170" font-family="Arial" font-size="28" fill="white" opacity="0.9">
-    Gerenciamento de tarefas simples e eficiente
-  </text>
-
-  <!-- Feature list -->
-  <g transform="translate(100, 220)">
-    <circle cx="10" cy="0" r="4" class="text-white"/>
-    <text x="25" y="5" class="text-white">Interface intuitiva</text>
-    
-    <circle cx="10" cy="30" r="4" class="text-white"/>
-    <text x="25" y="35" class="text-white">Organização eficiente</text>
-    
-    <circle cx="10" cy="60" r="4" class="text-white"/>
-    <text x="25" y="65" class="text-white">Atualizações em tempo real</text>
+  <rect width="800" height="200" fill="url(#taskGradient)" rx="10" />
+  
+  <text x="50" y="80" fill="white" font-family="Arial" font-size="40" font-weight="bold">Task Manager</text>
+  
+  <!-- Task List Icon -->
+  <g transform="translate(650,80)">
+    <rect x="0" y="0" width="40" height="40" fill="white" rx="5" opacity="0.9"/>
+    <rect x="10" y="10" width="20" height="4" fill="#7C3AED" rx="2"/>
+    <rect x="10" y="18" width="20" height="4" fill="#7C3AED" rx="2"/>
+    <rect x="10" y="26" width="20" height="4" fill="#7C3AED" rx="2"/>
   </g>
-
-  <!-- Task List Card -->
-  <rect x="700" y="30" width="400" height="240" rx="8" class="card"/>
-
-  <!-- Card Header -->
-  <text x="740" y="67" class="text-header">Minhas Tarefas</text>
-
-  <!-- Add Task Input -->
-  <rect x="720" y="110" width="360" height="40" rx="4" fill="#f3f4f6"/>
-  <text x="740" y="135" class="text-light">Adicionar nova tarefa...</text>
-  <rect x="1020" y="115" width="40" height="30" rx="4" class="button"/>
-  <text x="1035" y="135" font-family="Arial" font-size="20" fill="white">+</text>
-
-  <!-- Task Items -->
-  <g transform="translate(720, 170)">
-    <rect width="360" height="30" rx="4" class="list-item"/>
-    <circle cx="20" cy="15" r="8" class="list-icon"/>
-    <text x="40" y="20" font-family="Arial" font-size="14" fill="#374151">
-      Clonar repositório do Github
-    </text>
+  
+  <text x="50" y="120" fill="#E0E0E0" font-family="Arial" font-size="20">Modern task management application</text>
+  
+  <g transform="translate(50,160)">
+    <rect width="90" height="24" rx="12" fill="white" opacity="0.2"/>
+    <text x="45" y="17" fill="white" font-family="Arial" font-size="14" text-anchor="middle">React</text>
   </g>
-
-  <g transform="translate(720, 210)">
-    <rect width="360" height="30" rx="4" class="list-item"/>
-    <circle cx="20" cy="15" r="8" class="list-icon"/>
-    <text x="40" y="20" font-family="Arial" font-size="14" fill="#374151">
-      Instalar dependências
-    </text>
+  
+  <g transform="translate(150,160)">
+    <rect width="90" height="24" rx="12" fill="white" opacity="0.2"/>
+    <text x="45" y="17" fill="white" font-family="Arial" font-size="14" text-anchor="middle">NextJS</text>
   </g>
 </svg>
